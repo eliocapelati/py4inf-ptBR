@@ -4,6 +4,8 @@ Python para Informáticos: Explorando a Informação
 Este é o código fonte para "Python para Informáticos: Explorando a Informação"
 o website para este livro é http://www.pythonlearn.com
 
+![Py4Inf](https://github.com/victorjabur/py4inf-ptBR/blob/master/BookCoverPreviewFront.jpg?raw=true)
+
 LaTeX Files
 -----------
 
@@ -16,6 +18,35 @@ referência para todos os outros arquivos que representam os capítulos.
 serem traduzidos, ao todo são 16 capítulos e mais 4 arquivos complementares.
 
 *00-cover.tex* até *AD-copyright.tex* - Arquivos a serem traduzidos
+
+Responsáveis pela Tradução por Capítulo
+--------
+
+| Capítulo  | Responsável |
+|---|---|
+|00-cover.tex           |  Victor Jabur         |
+|00-preface.tex         |  Victor Jabur         |
+|01-intro.tex           |  Victor Jabur         |
+|02-variables.tex       |  Eduardo Cândido      |
+|03-conditional.tex     |  Fernando Moreira     |
+|04-functions.tex       |  Rodrigo Bravo        |
+|05-iterations.tex      |  Emir Neto            |
+|06-strings.tex         |  Élio Capelati        |
+|07-files.tex           |  Kaio Cesar           |
+|08-lists.tex           |  Rafael Costa         |
+|09-dictionaries.tex    |  Rafael Covre         |
+|10-tuples.tex          |  Clodonil Trigo       |
+|11-regex.tex           |  Felipe Souza         |
+|12-network.tex         |  Rafael Costa         |
+|13-web.tex             |  Kaio Cesar           |
+|14-database.tex        |  Maykon Chagas        |
+|15-viz.tex             |  Kléber Takazawa      |
+|16-tasks.tex           |  Paulo Henrique Silva |
+|AA-windows.tex         |  Não Definido         |
+|AB-apple.tex           |  Rodolfo Póvoa        |
+|AC-contrib.tex         |  Não Definido         |
+|AD-copyright.tex       |  Não Definido         |
+
 
 Fluxo de Trabalho
 --------
@@ -73,6 +104,15 @@ Rode estes comandos em seu terminal:
 Você pode colocar todos os comando em um único e longo apt-get, mas eu gosto de ver como eles funcionam :)
 
 Uma vez terminado, o *book.sh* e *html.sh* devem funcionar. 
+
+Instruções para Build Automático
+---------------------
+
+O Élio Capelati criou um mecanismo de build automático para a geração do PDF e publicação do PDF no S3
+Para maiores informações, favor olhar o link abaixo:
+
+[Build Automático usando o Travis + AWS S3](https://github.com/victorjabur/py4inf-ptBR/pull/1)
+
 
 Traduzindo este Livro
 ---------------------
